@@ -1,11 +1,24 @@
-import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Donate from './pages/Donate'
 
-const App = () => {
+function App() {
   return (
-    <div className="app" className="bg-green-500 text-white  text-center p-10 font-bold">
-      <Home />
-    </div>
-  );
-};
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/donate" element={<Donate />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  )
+}
 
-export default App; 
+export default App
