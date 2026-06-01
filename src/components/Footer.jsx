@@ -4,7 +4,7 @@ import { MdEmail, MdPhone } from 'react-icons/md'
 
 function Footer() {
   return (
-    <footer className="bg-green-700 text-white mt-10">
+    <footer className="bg-green-900 text-white mt-10">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* Column 1 - Logo and Mission */}
@@ -12,7 +12,7 @@ function Footer() {
           <img src="/logo.jpg" alt="Otenga JNR Foundation" className="h-16 w-16 rounded-full object-cover" />
           <h3 className="font-bold text-lg">OTENGA JNR FOUNDATION</h3>
           <p className="text-green-200 text-sm">
-            Educating, empowering, and sustaining communities across Kenya through housing, education, and relief.
+            Educating, empowering, and sustaining communities across Migori County, Kenya through housing, education, and relief.
           </p>
         </div>
 
