@@ -27,25 +27,23 @@ function MpesaForm() {
 
       {/* Step 1 - Paybill Info */}
       <div className="bg-green-50 border border-green-200 rounded-xl p-5 mb-6">
-        <p className="text-green-800 font-bold mb-3">Step 1 — Send Money via M-Pesa</p>
-        <div className="grid grid-cols-2 gap-4">
-          <div>
-            <p className="text-xs text-gray-500 mb-1">Paybill Number</p>
-            <p className="text-2xl font-bold text-green-800">247247</p>
+
+        {/* Step 1 - Send Money Info */}
+        <div className="bg-green-50 border border-green-200 rounded-xl p-5 mb-6">
+            <p className="text-green-800 font-bold mb-3">Step 1 — Send Money via M-Pesa</p>
+            <div className="mb-3">
+              <p className="text-xs text-gray-500 mb-1">Send Money To</p>
+              <p className="text-2xl font-bold text-green-800">0724052665</p>
+              <p className="text-sm text-green-700 font-medium">Robert Otieno Otenga</p>
+            </div>
+            <div className="bg-white rounded-lg p-3 text-sm text-gray-600 flex flex-col gap-1">
+              <p>1. Go to M-Pesa on your phone</p>
+              <p>2. Select <strong>Send Money</strong></p>
+              <p>3. Enter number: <strong>0724052665</strong></p>
+              <p>4. Enter your amount</p>
+              <p>5. Enter your PIN and confirm</p>
+            </div>
           </div>
-          <div>
-            <p className="text-xs text-gray-500 mb-1">Account Number</p>
-            <p className="text-lg font-bold text-green-700">0724052665</p>
-          </div>
-        </div>
-        <div className="mt-3 bg-white rounded-lg p-3 text-sm text-gray-600">
-          <p>1. Go to M-Pesa on your phone</p>
-          <p>2. Select <strong>Lipa na M-Pesa</strong></p>
-          <p>3. Select <strong>Pay Bill</strong></p>
-          <p>4. Enter Business No: <strong>247247</strong></p>
-          <p>5. Enter Account No: <strong>0724052665</strong></p>
-          <p>6. Enter your amount and PIN</p>
-        </div>
       </div>
 
       {/* Step 2 - Confirm */}
