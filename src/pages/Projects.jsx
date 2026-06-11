@@ -25,8 +25,8 @@ function Projects() {
             category="Housing"
             title="Family Home — Kitembe Village"
             description="Renovated a mud house into a proper stone home for a vulnerable elderly family, providing safety and dignity."
-            before="/housing.jpeg"
-            after="/hero1.jpg"
+            before="/befofe.jpg"
+            after="/after.jpg"
           />
           <ProjectCard
             category="Housing"

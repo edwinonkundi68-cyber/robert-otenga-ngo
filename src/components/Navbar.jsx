@@ -8,6 +8,8 @@ function Navbar() {
   return (
     <nav className="bg-white shadow-md px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
+
+
         
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
@@ -27,6 +29,7 @@ function Navbar() {
             </span>
           </div>
         </Link>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
