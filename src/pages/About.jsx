@@ -85,17 +85,17 @@ function About() {
             <TeamCard
             name="Team Member"
               role="Field Coordinator"
-              image="/team1.jpg"
+              image="/team8.jpg"
             />
             <TeamCard
               name="Team Member"
-              role="Education Officer"
-              image="/team2.jpg"
+              role=" Our Office"
+              image="/team7.jpg"
             />
             <TeamCard
               name="Team Member"
               role="Community Liaison"
-              image="/team3.jpg"
+              image="/com.jpg"
             />
           </div>
         </div>

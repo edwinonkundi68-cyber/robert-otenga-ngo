@@ -25,15 +25,15 @@ function Projects() {
             category="Housing"
             title="Family Home — Kitembe Village"
             description="Renovated a mud house into a proper stone home for a vulnerable elderly family, providing safety and dignity."
-            before="/befofe.jpg"
-            after="/after.jpg"
+            before="/before.jpg"
+            after="/babatulu.jpg"
           />
           <ProjectCard
             category="Housing"
             title="Building Materials from USA"
             description="Received cement, iron sheets and building materials from donors in the USA to construct homes for families in need."
-            before="/hero1.jpg"
-            after="/housing.jpeg"
+            before="/before usa.jpg"
+            after="/matirials from usa.jpg"
           />
         </div>
       </section>
@@ -52,15 +52,15 @@ function Projects() {
               category="Education"
               title="School Sponsorship Program"
               description="Sponsoring school fees, uniforms and supplies for over 120 children across Kitembe Village primary schools."
-              before="/community.jpg"
-              after="/educating.jpeg"
+              before="/childbefore.jpg"
+              after="/backto.jpg"
             />
             <ProjectCard
               category="Education"
               title="Back to School Drive"
               description="Annual back to school drive providing books, bags, uniforms and stationery to children from poor families."
-              before="/educating.jpeg"
-              after="/hero2.jpg"
+              before="/child.jpg"
+              after="/backto1.jpg"
             />
           </div>
         </div>
@@ -86,8 +86,8 @@ function Projects() {
             category="Food Relief"
             title="Emergency Relief Packages"
             description="Emergency food and medical relief packages delivered to families facing extreme hardship and hunger."
-            before="/food.jpeg"
-            after="/hero3.jpg"
+            before="/month.jpg"
+            after="/month1.jpg"
           />
         </div>
       </section>
