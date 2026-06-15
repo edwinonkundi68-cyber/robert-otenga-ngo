@@ -79,8 +79,8 @@ function Projects() {
             category="Food Relief"
             title="Monthly Food Distribution"
             description="Monthly distribution of maize, beans, cooking oil and other essentials to over 500 families across the region."
-            before="/hero3.jpg"
-            after="/food.jpeg"
+            before="/bt.jpg"
+            after="/bt1.jpg"
           />
           <ProjectCard
             category="Food Relief"
